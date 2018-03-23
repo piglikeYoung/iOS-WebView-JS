@@ -19,6 +19,8 @@
 		D28AB9892064DD2600222052 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28AB9882064DD2600222052 /* Logger.swift */; };
 		D28AB98C2064E98100222052 /* light_advice.png in Resources */ = {isa = PBXBuildFile; fileRef = D28AB98A2064E98100222052 /* light_advice.png */; };
 		D28AB98D2064E98100222052 /* light_illstration.png in Resources */ = {isa = PBXBuildFile; fileRef = D28AB98B2064E98100222052 /* light_illstration.png */; };
+		D28AB98F2064EDE300222052 /* JSWKWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = D28AB98E2064EDE300222052 /* JSWKWebView.html */; };
+		D28AB9912064EE9A00222052 /* JSWKWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28AB9902064EE9A00222052 /* JSWKWebViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		D28AB9882064DD2600222052 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		D28AB98A2064E98100222052 /* light_advice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_advice.png; sourceTree = "<group>"; };
 		D28AB98B2064E98100222052 /* light_illstration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_illstration.png; sourceTree = "<group>"; };
+		D28AB98E2064EDE300222052 /* JSWKWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSWKWebView.html; sourceTree = "<group>"; };
+		D28AB9902064EE9A00222052 /* JSWKWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSWKWebViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				D28AB9832064DBC200222052 /* WKWebViewJS_location.html */,
 				D28AB9812064DB7100222052 /* WKWebViewJS_file.html */,
 				D28AB9842064DBC200222052 /* WKWebViewJS.html */,
+				D28AB98E2064EDE300222052 /* JSWKWebView.html */,
 				D28AB97E2064CE0E00222052 /* WKWebView2JS */,
 				D28AB97D2064CE0400222052 /* JS2WKWebView */,
 			);
@@ -97,6 +102,7 @@
 		D28AB97D2064CE0400222052 /* JS2WKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				D28AB9902064EE9A00222052 /* JSWKWebViewViewController.swift */,
 			);
 			path = JS2WKWebView;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 				D28AB9862064DBC200222052 /* WKWebViewJS.html in Resources */,
 				D28AB9852064DBC200222052 /* WKWebViewJS_location.html in Resources */,
 				D28AB9722064CDB400222052 /* Assets.xcassets in Resources */,
+				D28AB98F2064EDE300222052 /* JSWKWebView.html in Resources */,
 				D28AB98D2064E98100222052 /* light_illstration.png in Resources */,
 				D28AB98C2064E98100222052 /* light_advice.png in Resources */,
 				D28AB9702064CDB400222052 /* Main.storyboard in Resources */,
@@ -195,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28AB9802064D4F700222052 /* WKWebViewJSViewController.swift in Sources */,
+				D28AB9912064EE9A00222052 /* JSWKWebViewViewController.swift in Sources */,
 				D28AB96D2064CDB400222052 /* ViewController.swift in Sources */,
 				D28AB96B2064CDB400222052 /* AppDelegate.swift in Sources */,
 				D28AB9892064DD2600222052 /* Logger.swift in Sources */,

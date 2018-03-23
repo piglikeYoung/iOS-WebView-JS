@@ -47,5 +47,10 @@
 	<string>I needs permission to access your Photo Library. </string>
 	<key>NSCameraUsageDescription</key>
 	<string>I needs permission to access your Camera. </string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
