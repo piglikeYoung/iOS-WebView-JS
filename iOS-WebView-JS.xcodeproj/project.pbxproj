@@ -12,6 +12,13 @@
 		D28AB9702064CDB400222052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28AB96E2064CDB400222052 /* Main.storyboard */; };
 		D28AB9722064CDB400222052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28AB9712064CDB400222052 /* Assets.xcassets */; };
 		D28AB9752064CDB400222052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28AB9732064CDB400222052 /* LaunchScreen.storyboard */; };
+		D28AB9802064D4F700222052 /* WKWebViewJSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28AB97F2064D4F700222052 /* WKWebViewJSViewController.swift */; };
+		D28AB9822064DB7100222052 /* WKWebViewJS_file.html in Resources */ = {isa = PBXBuildFile; fileRef = D28AB9812064DB7100222052 /* WKWebViewJS_file.html */; };
+		D28AB9852064DBC200222052 /* WKWebViewJS_location.html in Resources */ = {isa = PBXBuildFile; fileRef = D28AB9832064DBC200222052 /* WKWebViewJS_location.html */; };
+		D28AB9862064DBC200222052 /* WKWebViewJS.html in Resources */ = {isa = PBXBuildFile; fileRef = D28AB9842064DBC200222052 /* WKWebViewJS.html */; };
+		D28AB9892064DD2600222052 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28AB9882064DD2600222052 /* Logger.swift */; };
+		D28AB98C2064E98100222052 /* light_advice.png in Resources */ = {isa = PBXBuildFile; fileRef = D28AB98A2064E98100222052 /* light_advice.png */; };
+		D28AB98D2064E98100222052 /* light_illstration.png in Resources */ = {isa = PBXBuildFile; fileRef = D28AB98B2064E98100222052 /* light_illstration.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		D28AB9712064CDB400222052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D28AB9742064CDB400222052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D28AB9762064CDB400222052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28AB97F2064D4F700222052 /* WKWebViewJSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewJSViewController.swift; sourceTree = "<group>"; };
+		D28AB9812064DB7100222052 /* WKWebViewJS_file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebViewJS_file.html; sourceTree = "<group>"; };
+		D28AB9832064DBC200222052 /* WKWebViewJS_location.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebViewJS_location.html; sourceTree = "<group>"; };
+		D28AB9842064DBC200222052 /* WKWebViewJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebViewJS.html; sourceTree = "<group>"; };
+		D28AB9882064DD2600222052 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D28AB98A2064E98100222052 /* light_advice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_advice.png; sourceTree = "<group>"; };
+		D28AB98B2064E98100222052 /* light_illstration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_illstration.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 		D28AB9692064CDB400222052 /* iOS-WebView-JS */ = {
 			isa = PBXGroup;
 			children = (
+				D28AB9872064DD2600222052 /* Logger */,
+				D28AB97C2064CDD900222052 /* WKWebView */,
 				D28AB96A2064CDB400222052 /* AppDelegate.swift */,
 				D28AB96C2064CDB400222052 /* ViewController.swift */,
 				D28AB96E2064CDB400222052 /* Main.storyboard */,
@@ -62,6 +78,43 @@
 				D28AB9762064CDB400222052 /* Info.plist */,
 			);
 			path = "iOS-WebView-JS";
+			sourceTree = "<group>";
+		};
+		D28AB97C2064CDD900222052 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D28AB98A2064E98100222052 /* light_advice.png */,
+				D28AB98B2064E98100222052 /* light_illstration.png */,
+				D28AB9832064DBC200222052 /* WKWebViewJS_location.html */,
+				D28AB9812064DB7100222052 /* WKWebViewJS_file.html */,
+				D28AB9842064DBC200222052 /* WKWebViewJS.html */,
+				D28AB97E2064CE0E00222052 /* WKWebView2JS */,
+				D28AB97D2064CE0400222052 /* JS2WKWebView */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		D28AB97D2064CE0400222052 /* JS2WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JS2WKWebView;
+			sourceTree = "<group>";
+		};
+		D28AB97E2064CE0E00222052 /* WKWebView2JS */ = {
+			isa = PBXGroup;
+			children = (
+				D28AB97F2064D4F700222052 /* WKWebViewJSViewController.swift */,
+			);
+			path = WKWebView2JS;
+			sourceTree = "<group>";
+		};
+		D28AB9872064DD2600222052 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				D28AB9882064DD2600222052 /* Logger.swift */,
+			);
+			path = Logger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28AB9752064CDB400222052 /* LaunchScreen.storyboard in Resources */,
+				D28AB9862064DBC200222052 /* WKWebViewJS.html in Resources */,
+				D28AB9852064DBC200222052 /* WKWebViewJS_location.html in Resources */,
 				D28AB9722064CDB400222052 /* Assets.xcassets in Resources */,
+				D28AB98D2064E98100222052 /* light_illstration.png in Resources */,
+				D28AB98C2064E98100222052 /* light_advice.png in Resources */,
 				D28AB9702064CDB400222052 /* Main.storyboard in Resources */,
+				D28AB9822064DB7100222052 /* WKWebViewJS_file.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28AB9802064D4F700222052 /* WKWebViewJSViewController.swift in Sources */,
 				D28AB96D2064CDB400222052 /* ViewController.swift in Sources */,
 				D28AB96B2064CDB400222052 /* AppDelegate.swift in Sources */,
+				D28AB9892064DD2600222052 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +335,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E8K7957TV8;
+				DEVELOPMENT_TEAM = 6QV7266CQK;
 				INFOPLIST_FILE = "iOS-WebView-JS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yjh.iOS-WebView-JS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.livestar.iOS-WebView-JS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,10 +351,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E8K7957TV8;
+				DEVELOPMENT_TEAM = 6QV7266CQK;
 				INFOPLIST_FILE = "iOS-WebView-JS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yjh.iOS-WebView-JS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.livestar.iOS-WebView-JS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
